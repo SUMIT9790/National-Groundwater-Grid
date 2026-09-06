@@ -139,3 +139,5 @@ app.listen(PORT, async () => {
         console.error("Warning: Failed to preload data on startup", err);
     }
 });
+
+module.exports = app;
